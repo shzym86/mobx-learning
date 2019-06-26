@@ -1,0 +1,50 @@
+.todo-list {
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+.todo-header {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.todo-view {
+  padding-left: 0;
+}
+.input {
+  padding: 15px;
+  border: 1px #ccc solid;
+  width: 400px;
+  font-size: 24px;
+  flex-grow: 1;
+}
+.btn {
+  width: 100px;
+  padding: 15px;
+  font-size: 24px;
+  color: #fff;
+  background: #026be4;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: 1px #ccc solid;
+}
+.todo-item .toogle {
+  margin-right: 20px;
+}
+.todo-item .title {
+  font-size: 18px;
+  color: #000;
+}
+.todo-item .title.finished {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.todo-item .delete {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: red;
+}
